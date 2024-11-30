@@ -23,9 +23,7 @@ struct ContentView: View {
                     Spacer()
                     Button("Commit") {
                         self.writeCommitMessage()
-                    }.foregroundColor(.white)
-                        .background(Color.accentColor)
-                        .cornerRadius(8)
+                    }
                 }
             }
     }
